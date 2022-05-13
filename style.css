@@ -68,9 +68,9 @@ ul{
 
 .header-button{
     margin-top:5px;
-    padding:2px 20px;
     background-color:#3882F6;
     color:white;
+    border:none;
 }
 
 .header-right{
@@ -149,12 +149,9 @@ ul{
     padding:0;
 }
 
-.call button{
-    padding:2px 20px;
-}
-
 button{
     border-radius: 6px;
+    padding:5px 20px;
     color:#E5E7EB;
     background-color: #3882F6;
     border:1px solid #E5E7EB;
