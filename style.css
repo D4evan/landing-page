@@ -1,0 +1,168 @@
+{border:solid red;
+}
+
+html{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin:0;
+}
+
+header{
+    color:white;
+    background-color:#1F2937;
+    padding:0 200px;
+}
+
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-logo{
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.header-link{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:20px;
+}
+
+.header-center{
+    display:flex;
+    justify-content: space-between;
+    align-items: ;
+    padding:50px 0 70px 0;
+    gap:60px;
+}
+
+.header-left h1,
+.header-left p{
+    margin:0;
+}
+
+.header-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.header-left p{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.header-button{
+    margin-top:5px;
+    padding:2px 20px;
+    background-color:#3882F6;
+    color:white;
+}
+
+.header-right{
+    width:500px;
+    height: 250px;
+}
+
+.information {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:50px;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+.icons{
+    display:flex;
+    gap:25px;
+}
+
+.icon img{
+    border:solid blue;
+    border-radius: 6px;
+    width:130px;
+    height:130px;
+    padding:2px;
+}
+
+.icon{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.icon p{
+    margin:2px;
+}
+
+.quote{
+    background-color:#E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color:#1F2937;
+    padding:50px 30%;
+}
+
+.quote-end{
+    font-size: 25px;
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+}
+
+.call{
+    margin:100px 200px;
+    background-color:#3882F6;
+    padding:40px 80px;
+    color:#E5E7EB;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.call h3,
+.call p{
+    margin:0;
+    padding:0;
+}
+
+.call button{
+    padding:2px 20px;
+}
+
+button{
+    border-radius: 6px;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border:1px solid #E5E7EB;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding:5px;
+    color:#E5E7EB
+}
